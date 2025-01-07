@@ -1,0 +1,84 @@
+.employee-search-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.employee-search-container h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+    color: #333;
+}
+
+.search-input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.employee-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    gap: 20px;
+  }
+  
+
+.employee-card {
+    background-color: #ca65c2;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employee-info h2 {
+    margin: 0 0 5px;
+}
+
+.employee-role {
+    display: inline-block;
+    background-color: #ffcccb;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.employee-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.skill-tag {
+    background-color: #d1e7dd;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+
+.details-btn {
+    background-color: #c76c48;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details-btn:hover {
+    background-color: #17a785;
+
+}
